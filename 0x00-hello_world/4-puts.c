@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*Hola que hace?*/
-void main()
+int main()
 {
 puts("\"Programming is like building a multilingual puzzle");
 }
