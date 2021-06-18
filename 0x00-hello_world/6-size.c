@@ -4,17 +4,17 @@
  *
  * Return: Always 0 (Success)
  */
-void main(void)
+int main()
 {
-printf("Size of a char: 1 byte(s)\n");
-printf("Size of an int: 4 byte(s)\n");
-printf("Size of a long int: 4 byte(s)\n");
-printf("Size of a long long int: 8 byte(s)\n");
-printf("Size of a float: 4 byte(s)\n");
-printf("Size of a char: 1 byte(s)\n");
-printf("Size of an int: 4 byte(s)\n");
-printf("Size of a long int: 8 byte(s)\n");
-printf("Size of a long long int: 8 byte(s)\n");
-printf("Size of a float: 4 byte(s)\n");
+int i;
+char c;
+long int l;
+long long int ll;
+float f;
+printf("Size of a char: %d byte(s)\n", sizeof(c));
+printf("Size of an int: %d byte(s)\n", sizeof(i));
+printf("Size of a long int: %d byte(s)\n", sizeof(l));
+printf("Size of a long long int: %d byte(s)\n", sizeof(ll));
+printf("Size of a float: %d byte(s)\n", sizeof(f));
 return (0);
 }
