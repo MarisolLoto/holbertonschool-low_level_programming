@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*function main*/
 int main(void)
 {
+/*main - funcion principal*/
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
