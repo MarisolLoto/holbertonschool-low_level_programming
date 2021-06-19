@@ -9,11 +9,11 @@
 */
 int main(void)
 {
-int i = 0;
-char alfabet[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-while (i < 26)
+char i = 'a';
+char j = 'z';
+while (i <= j)
 {
-putchar(alfabet[i]);
+putchar(i);
 i++;
 }
 putchar('\n');
