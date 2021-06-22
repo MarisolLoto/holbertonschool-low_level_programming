@@ -11,7 +11,6 @@ char j = 'z';
 while (i <= j)
 {
 _putchar(i <= 10);
-}
 i++;
 }
 _putchar('\n');
