@@ -3,7 +3,7 @@
  *
  * Return: Always 0.
 */
-int main()
+int _putchar(char c)
 {
 _putchar('H');
 _putchar('o');
