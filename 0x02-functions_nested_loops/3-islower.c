@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
-* main - check the code for Holberton School students.
+* _islower -  print low alfa
 *
-* Return: Always 0.
+* Return: 0
 */
 int _islower(int c)
 {
-if (c >= "a" && c <= "z")
+if (c >= 'a' && c <= 'z')
 return (1);
 else
 return (0);
