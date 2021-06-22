@@ -1,0 +1,7 @@
+2-print_alphabet_x10.c:17:8: error: ‘return’ with a value, in function returning void [-Werror=return-type]
+   17 | return (0);
+      |        ^
+2-print_alphabet_x10.c:7:6: note: declared here
+    7 | void print_alphabet(void)
+      |      ^~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
