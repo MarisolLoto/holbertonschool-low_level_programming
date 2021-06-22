@@ -1,10 +1,9 @@
 #include <holberton.h>
 /**
- * main - Determine if the last digit of a random number is
- * greater than or less than 5, or is zero..
-(*
-* Return: 0 on success
-*/
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
 void print_alphabet(void);
 {
 char i = 'a';

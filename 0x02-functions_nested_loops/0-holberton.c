@@ -1,10 +1,20 @@
 #include <holberton.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+*/
 int main(void)
 {
-_putchar("Holerton");
+_putchar("H");
+_putchar("o");
+_putchar("l");
+_putchar("b");
+_putchar("e");
+_putchar("r");
+_putchar("t");
+_putchar("o");
+_putchar("n");
 _putchar('\n');
 return (0);
 }
