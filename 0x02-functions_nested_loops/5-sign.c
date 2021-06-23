@@ -1,14 +1,14 @@
 #include "holberton.h"
 /**
-* print_sign - check the code for Holberton School students.
-* @n:es cual quier valor
-* Return: depende del numero y la cond
+* print_sign - Print the sign of a number
+* @n: the number devuelve
+* Return: 1 if 0
 */
-int print_sign(int n);
+int print_sign(int n)
 {
 if (n > 0)
 {
-putchar('+');
+_putchar('+');
 return (1);
 }
 else if (n == 0)
