@@ -1,16 +1,15 @@
 #include "holberton.h"
 /**
 * print_last_digit - imprimir el ultimo dig
-* @
-* Return: 1 if letter, 0 otherwise
-**/
-int print_last_digit(int);
+* @n: vlor abs
+* Return: print last d 
+*/
+int print_last_digit(int n)
 {
-int f;
-f = c % 10;
-if (f < 0)
+n = n % 10;
+if (n < 0)
 {
-f = f * -1;
+_putchar(n = n * -1);
 }
-return(f);
+return(n);
 }
