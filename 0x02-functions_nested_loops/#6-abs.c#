@@ -1,0 +1,12 @@
+#include "holberton.h"
+/**
+* int _abs - Print the sign of a number
+* @n: the number devuelve
+* Return: 1 if 0
+*/
+int _abs(int)
+{
+if (i < 0)
+i = i * -1;
+return (i);
+}
