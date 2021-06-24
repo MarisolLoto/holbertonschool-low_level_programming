@@ -1,3 +1,5 @@
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 /*Write a function that prints the alphabet, in lowercase */
 int _putchar(char c);
 /*Write a function that prints the alphabet, in lowercase*/
@@ -22,3 +24,4 @@ void times_table(void);
 int add(int, int);
 /*Write a function that prints all natural numbers from n to 98, followed by a new line.*/
 void print_to_98(int n);
+#endif
