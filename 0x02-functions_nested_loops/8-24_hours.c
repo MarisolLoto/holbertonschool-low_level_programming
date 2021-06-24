@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * jack_bauer - print the numbers from to 98
-* 
+*
 *
 * Return: void returns nothing.
 */
@@ -18,13 +18,13 @@ if (i < 10)
 {
 putchar('0');
 }
-printf("%d" ,i);
+printf("%d" , i);
 putchar(':');
 if (j < 10)
 {
 putchar('0');
 }
-printf("%d" ,j);
+printf("%d" , j);
 putchar('\n');
 }
 }
