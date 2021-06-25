@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _isupper : of an integer and returns a value of type int
- * @c: alfabeth impri
+ * int _isupper(int c) : of an integer and returns a value of type int
+ * @c : alphabeth
  * Return: Always 0.
  */
 int _isupper(int c)
