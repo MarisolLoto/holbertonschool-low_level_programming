@@ -1,10 +1,11 @@
 #include <stdio.h>
-/*
-* main: fizzbuzz
+/**
+* main - check the code for Holberton School students.
+*
+* Return: Always 0.
 */
 
 int main(void)
-
 {
 int i = 1;
 while (i <= 100)
