@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * _puts - check the code for Holberton School students.
-* @puts: funtion
+* @str: funtion
 * Return: Always 0.
 */
 
